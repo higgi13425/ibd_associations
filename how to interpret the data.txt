@@ -1,0 +1,24 @@
+Here is a description of each column:
+
+(A) Concept 1: The ICD-9 code for concept 1.  Each row is an association of two concepts (two ICD-9 codes)
+(B) Concept 1 Description: A text description of the concept 1 code
+(C) Concept 1 Category: A text description of the disease category of the concept 1 code
+(D) Concept 2: The ICD-9 code for concept 2.
+(E) Concept 2 Description: A text description of the concept 2 code
+(F) Concept 2 Category: A text description of the disease category of the concept 2 code.
+(G) # Pts with C1 and C2: The number of patients who had BOTH concept 1 AND concept 2
+(H) # Pts with C1, NOT C2: The number of patients who had only concept 1 but not concept 2
+(I) # Pts with C2, NOT C1: The number of patients who had only concept 2 but not concept 1
+(J) # Pts without C1 or C2: The number of patients who had neither concept 1 nor concept 2
+
+(The four numbers above can be made into a 2x2 table....)
+
+(K) Odds Ratio: The odds ratio for the relationship of concept 1 and concept 2
+(L) Chi Square p value: A chi square p value for the relationship
+(M) Chi square statistics: The chi square statistic.  This was useful since some of the p values were too small to calculate
+
+(N) # times C1 precedes C2: Among the cases where concept 1 and concept 2 appeared together, how many times did concept 1 appear first
+(O) # times C2 precedes C1:  Among the cases where concept 1 and concept 2 appeared together, how many times did concept 2 appear first
+℗ Temporal Direction: An arrow showing the general direction. <----- means Concept 2 appears before concept 1 more often, -----> means concept 1 appeared before concept 2 more often, and ------ means a tie (both appeared equally before and after.
+(Q) Temporal P value: A p value for the strength of the directionality 
+
